@@ -21,6 +21,6 @@ def reduce(source_array, starting_value = nil)
    launch_point = yield(launch_point, source_array[i])
    i += 1
 end
-launch_point
+launch_point 
 end
 
