@@ -18,9 +18,9 @@ def reduce(source_array, starting_value = nil)
    i = 1
  end
  while i < source_array.length do 
-   sum = yield(launch_point, source_array[i])
+   launch_point = yield(launch_point, source_array[i])
    i += 1
 end
-sum
+launch_point
 end
 
